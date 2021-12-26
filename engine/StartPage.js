@@ -3,6 +3,7 @@
 FormingPage();
 
 function FormingPage () {
+
     let
         pg_title_visible = document.getElementById('pg_title'),
         pg_events_visible = document.getElementById('pg_events'),
