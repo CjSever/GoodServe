@@ -1,9 +1,4 @@
 /* discription style for pg_title */
-.Box__logo {
-    display: flex;
-    height: 100%;
-    width: 320px;
-}
 .wrap__navigation{
     display: flex;
     align-items: center;

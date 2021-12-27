@@ -17,6 +17,7 @@ html {
 /* discription style common container for all page */
 @media screen and (min-width: 320px) and (max-width: 1279px) {
     .page__box {
+        display: none;
         width: 100%;
         height: 100%;
     }
@@ -24,7 +25,6 @@ html {
 
 @media screen and (min-width: 1280px) {
 .page__box {
-    border: 0.5px solid black;
     /* width: 66.666%; */
     width: 1280px;
     max-width: 1280px;
@@ -34,7 +34,6 @@ html {
     .header{
         width: 100%;
         /* height: 16.63%; */
-        border: 1px solid red;
         height: 180px;
         display: flex;
         justify-content: space-between;
@@ -46,7 +45,6 @@ html {
     .content {
         display: flex;
         /* height: 70.370%; */
-        border: 1px solid green;
         width: 100%;
         height: 760px;
     }
@@ -54,9 +52,13 @@ html {
             display: flex;
             justify-content: space-between;
         }
+    .content__wrap_center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .bottom {
         /* height: 13%; */
-        border: 1px solid blue;
         width: 100%;
         height: 140px;
     }
@@ -68,7 +70,6 @@ html {
         display: flex;
         align-items: center;
         justify-content: center;
-        border: 1px solid red;
         height: 760px;
         width: 128px;
     }
@@ -80,4 +81,34 @@ html {
             50% { opacity: 0.0; }
             100% { opacity: 1.0; }
         }
+
+        .footer {
+            width: 1280px;
+            height: 360px;
+        }
+        .Box__logo {
+            display: flex;
+            height: 100%;
+            width: 320px;
+        }
+    .social__icon{
+        width: 75px;
+        height: 75px;
+    }
+    .social__icon_vk{
+        width: 115px;
+    }
+    .title__error_404 {
+        border-radius: 20px;
+        width: 1280px;
+    }
+    .entrance_pg{
+        position: relative;
+        left: 250px;
+    }
+    .button_entrance{
+        position: relative;
+        top: -185px;
+        left: -635px;
+    }
 }
