@@ -25,9 +25,13 @@ html {
 
 @media screen and (min-width: 1280px) {
 .page__box {
+    border: 0.5px solid black;
     /* width: 66.666%; */
+
     width: 1280px;
-    min-height: 100%;
+    max-width: 1280px;
+    height: 1080px;
+    max-height: 1080px;
 }
     .header__box {
         width: 100%;
