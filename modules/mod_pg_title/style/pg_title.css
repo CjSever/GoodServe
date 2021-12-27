@@ -99,14 +99,7 @@
                                     width: 100%;
                                     height: 100%;
                                 }
-                    .icon_mouse {
-                        animation:1s blinker linear infinite;
-                    }
-                        @keyframes blinker {
-                            0% { opacity: 1.0; }
-                            50% { opacity: 0.0; }
-                            100% { opacity: 1.0; }
-                        }
+
 /* discription style events navigaions - menu */
 .menu__link:hover > .item__circle {
     flex-direction: column;
